@@ -17,7 +17,8 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="customer" options="-parameters" />
       <module name="eurakeserver" options="-parameters" />
-      <module name="provider" options="-parameters" />
+      <module name="provider" options="" />
+      <module name="springcloud" options="" />
     </option>
   </component>
 </project>
