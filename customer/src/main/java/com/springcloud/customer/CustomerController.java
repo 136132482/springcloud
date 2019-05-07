@@ -12,7 +12,7 @@ public class CustomerController {
 
     @RequestMapping("/")
     public String index(){
-        String result = restTemplate.getForObject("http://ticket-provider/", String.class);
+        String result = restTemplate.postForObject("http://ticket-provider/api/TicketController/user", Object.class, String.class);
 
         return result;
     }

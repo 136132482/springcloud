@@ -4,7 +4,7 @@
 package com.springcloud.provider.persistence.dialect.db;
 
 
-import com.odfly.demo.common.persistence.dialect.Dialect;
+import com.springcloud.provider.persistence.dialect.Dialect;
 
 /**
  * Mysql方言的实现

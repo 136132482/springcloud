@@ -3,8 +3,9 @@ package com.springcloud.provider.persistence;
 
 import com.alibaba.fastjson.JSONException;
 import com.alibaba.fastjson.JSONObject;
-import com.odfly.demo.util.IdGen;
-import com.odfly.demo.util.StringUtil;
+
+import com.springcloud.provider.util.IdGen;
+import com.springcloud.provider.util.StringUtil;
 import org.springframework.beans.BeanUtils;
 
 import java.lang.reflect.Field;

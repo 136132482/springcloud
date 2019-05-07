@@ -4,10 +4,10 @@
 package com.springcloud.provider.persistence.interceptor;
 
 
-import com.odfly.demo.common.page.Page;
-import com.odfly.demo.common.persistence.dialect.Dialect;
-import com.odfly.demo.common.persistence.dialect.db.*;
-import com.odfly.demo.util.Reflections;
+import com.springcloud.provider.page.Page;
+import com.springcloud.provider.persistence.dialect.Dialect;
+import com.springcloud.provider.persistence.dialect.db.*;
+import com.springcloud.provider.util.Reflections;
 import org.apache.ibatis.logging.Log;
 import org.apache.ibatis.logging.LogFactory;
 import org.apache.ibatis.plugin.Interceptor;

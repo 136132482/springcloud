@@ -1,7 +1,7 @@
 package com.springcloud.provider.persistence;
 
 
-import com.odfly.demo.common.mybaits.ext.BaseMapper;
+import com.springcloud.provider.ext.BaseMapper;
 import org.apache.ibatis.annotations.Param;
 
 import java.io.Serializable;

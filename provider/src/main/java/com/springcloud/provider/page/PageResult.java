@@ -1,7 +1,7 @@
 package com.springcloud.provider.page;
 
 import com.alibaba.fastjson.JSONObject;
-import com.odfly.demo.util.StringUtil;
+import com.springcloud.provider.util.StringUtil;
 
 import java.io.Serializable;
 import java.util.ArrayList;

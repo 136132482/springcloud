@@ -3,9 +3,10 @@
  */
 package com.springcloud.provider.persistence.interceptor;
 
-import com.odfly.demo.common.page.Page;
-import com.odfly.demo.util.Reflections;
-import com.odfly.demo.util.StringUtil;
+
+import com.springcloud.provider.page.Page;
+import com.springcloud.provider.util.Reflections;
+import com.springcloud.provider.util.StringUtil;
 import org.apache.ibatis.executor.Executor;
 import org.apache.ibatis.mapping.BoundSql;
 import org.apache.ibatis.mapping.MappedStatement;

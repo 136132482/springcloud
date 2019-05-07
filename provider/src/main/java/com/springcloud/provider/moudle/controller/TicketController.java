@@ -1,5 +1,6 @@
-package com.springcloud.provider;
+package com.springcloud.provider.moudle.controller;
 
+import com.springcloud.provider.moudle.entity.Demo;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiImplicitParam;
 import io.swagger.annotations.ApiImplicitParams;
@@ -8,10 +9,8 @@ import io.swagger.annotations.ApiOperation;
 import org.apache.logging.log4j.LogManager;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.MediaType;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.validation.annotation.Validated;
+import org.springframework.web.bind.annotation.*;
 
 @RestController
 @Api(tags="账号授权管理")
@@ -20,7 +19,7 @@ public class TicketController {
     @Autowired
     private TicketService ticketService;
 
-    @RequestMapping("/")
+    @RequestMapping(value = "/user")
     public String index(){
         return ticketService.buyTicket();
     }
@@ -38,7 +37,8 @@ public class TicketController {
 
     @RequestMapping("/add")
     @ApiOperation(value = "新增账号信息", consumes = MediaType.APPLICATION_JSON_UTF8_VALUE)
-    public void addResult(){
+    public void addResult(@Validated @RequestBody Demo demo){
+
 
     }
 

@@ -5,10 +5,10 @@ package com.springcloud.provider.persistence.interceptor;
 
 
 
-import com.odfly.demo.common.page.Page;
-import com.odfly.demo.common.persistence.dialect.Dialect;
-import com.odfly.demo.util.Reflections;
-import com.odfly.demo.util.StringUtil;
+import com.springcloud.provider.page.Page;
+import com.springcloud.provider.persistence.dialect.Dialect;
+import com.springcloud.provider.util.Reflections;
+import com.springcloud.provider.util.StringUtil;
 import org.apache.ibatis.executor.ErrorContext;
 import org.apache.ibatis.executor.ExecutorException;
 import org.apache.ibatis.logging.Log;

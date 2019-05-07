@@ -2,7 +2,8 @@ package com.springcloud.provider.annotation;
 
 
 
-import com.odfly.demo.util.StringUtil;
+
+import com.springcloud.provider.util.StringUtil;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;

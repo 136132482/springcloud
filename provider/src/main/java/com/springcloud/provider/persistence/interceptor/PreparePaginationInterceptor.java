@@ -4,8 +4,9 @@
 package com.springcloud.provider.persistence.interceptor;
 
 
-import com.odfly.demo.common.page.Page;
-import com.odfly.demo.util.Reflections;
+
+import com.springcloud.provider.page.Page;
+import com.springcloud.provider.util.Reflections;
 import org.apache.ibatis.executor.statement.BaseStatementHandler;
 import org.apache.ibatis.executor.statement.RoutingStatementHandler;
 import org.apache.ibatis.executor.statement.StatementHandler;

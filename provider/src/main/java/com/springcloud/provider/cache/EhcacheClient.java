@@ -2,6 +2,7 @@ package com.springcloud.provider.cache;
 
 
 import net.sf.ehcache.Cache;
+import net.sf.ehcache.CacheManager;
 
 import java.net.URL;
 

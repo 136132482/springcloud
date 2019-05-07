@@ -1,4 +1,4 @@
-package com.springcloud.provider;
+package com.springcloud.provider.moudle.controller;
 
 import org.springframework.stereotype.Service;
 

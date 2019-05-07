@@ -1,8 +1,9 @@
 package com.springcloud.provider.ext;
 
 
-import com.odfly.demo.common.annotation.FieldConfig;
-import com.odfly.demo.util.StringUtil;
+
+import com.springcloud.provider.annotation.FieldConfig;
+import com.springcloud.provider.util.StringUtil;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.core.io.Resource;
